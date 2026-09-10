@@ -44,7 +44,9 @@ mkdir PPythonPrueba 2>nul
 cd PPythonPrueba
 
 mkdir notebooks 2>nul
+cd notebooks
 type nul > ppythonPrueba.ipynb
+cd..
 
 mkdir src 2>nul
 mkdir src\controller 2>nul
